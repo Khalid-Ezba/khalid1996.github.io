@@ -1,0 +1,13 @@
+body{
+    background-image: url("/photo/freedom.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+img{
+    width: 20px;
+}
+img:hover{
+    width: 30px;
+    height: 30px;
+}

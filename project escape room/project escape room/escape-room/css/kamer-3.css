@@ -1,0 +1,74 @@
+body{
+   background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/17/17/f1/54/warden-office.jpg') ;
+    height: 100vh;
+    background-size: cover;
+}
+.vault{
+    width:100px ;
+}
+
+button{
+    background: none;
+    border: none;
+    cursor: pointer;
+    margin: 555px 0px 0px 340px;
+}
+
+.number1{
+    margin: 50px;
+    color: black;
+    font-size: 50px;
+    
+}
+
+.board{
+    width: 480px;
+    height: 480px;
+    background-color: black;
+    border: 10px solid blue;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.board img{
+    width: 158px;
+    height: 158px;
+    border: 1px solid black;
+    background-color: white;
+    float: left;
+}  
+
+.bg-model{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, 0.7);
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+
+.model-content{
+    width: fit-content;
+    height: fit-content;
+    background-color: white;
+    border-radius: 4px;
+    text-align: center;
+    padding: 50px;
+    position: relative;
+    
+}
+.close{
+    position: absolute;
+    top: 0;
+    right: 14px;
+    font-size: 42px;
+    transform: rotate(45deg);
+    cursor: pointer;
+
+}
+ 

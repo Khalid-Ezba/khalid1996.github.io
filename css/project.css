@@ -1,0 +1,28 @@
+body{
+    background-color: red;
+}
+.project{
+    display: flex;
+    
+}
+h1{
+    color: black ;
+    font-weight: bold;
+    font-size: 40px;
+}
+.project2{
+    margin: auto;
+  
+}
+a{
+    
+    text-decoration: none;
+}
+button{
+    background-color: rgb(15, 207, 207);
+}
+button:hover{
+    width: 50px;
+    height: 35px;
+    background-color: rgb(252, 252, 248);
+}

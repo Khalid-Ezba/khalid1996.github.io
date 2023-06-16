@@ -1,0 +1,12 @@
+body{
+    background-color: red;
+}
+span{
+    font-size: 40px;
+    color: white;
+    font-weight: bold;
+}
+p{
+    text-align: center;
+    font-size: 30px;
+}

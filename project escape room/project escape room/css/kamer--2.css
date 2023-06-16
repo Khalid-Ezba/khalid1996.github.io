@@ -1,0 +1,16 @@
+body{
+    background-color: antiquewhite;
+ }
+ table{ 
+     border: 2px solid red;
+     border-radius: 12px;
+     padding: 5px;
+    color: black;
+     margin: auto ;
+     background-color: azure;
+     font-size: 30px;
+     text-align: center;
+     width: 400px;
+     height: 400px;
+ }
+ 

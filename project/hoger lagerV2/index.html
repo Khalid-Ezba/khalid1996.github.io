@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="CSS/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoger lager spel</title>
+</head>
+<body>
+
+    <div id="wrapper">
+        <h1 id="h1-wrapper">Hoger en lager spel</h1>
+        <div class="game-view">
+            <div class="number" id="current">0</div>
+        </div>
+        <p id="user_number">gooi een nummer..</p>
+        <p class="line">h</p>
+
+        <div class="button-group">
+            <div>
+                <button class="btn" id="hoger" data-value="hoger" onclick="hoger()">HOGER</button>
+            </div>
+            <div>
+                <button class="btn" id="lager" data-value="lager" onclick="lager()">LAGER</button>
+            </div>
+
+        </div>
+    <p class="line">h</p>
+
+        <h4 id="h4-score">SCORE</h4>
+        <div class="score" id="score">0</div>
+
+        <h3 class="result" id="result">correct</h3>
+    </div>
+
+    <div class="button-group">
+        <button id="start-button" onclick="reset()">RESET</button>
+    </div>
+    
+
+    <script src="JS/main.js"></script>
+</body>
+</html>

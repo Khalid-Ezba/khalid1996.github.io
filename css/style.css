@@ -1,0 +1,262 @@
+*{
+    margin: 0px;
+    padding: 0px;
+  
+   
+}
+
+:root{
+    --color1 : rgb(52, 45, 45);
+    --color2 : rgb(188, 51, 51);
+    --color3 : rgb(169, 77, 77);
+    --color4 : rgb(59, 49, 51);
+
+    --hover1 : rgb(133, 92, 166);
+    --hover2 : rgb(48, 46, 46);
+    --hover3 : rgb(148, 130, 98);
+    --color4 : rgb(187, 19, 217);
+}
+
+body{
+    
+    width: 100%;
+    height: 100%;
+    background-color:white;
+    background-size: cover;
+    background-image: url(../photoportfilio/istockphoto-1353553203-170667a.jpg)
+
+}
+.main::after{
+  
+    z-index: -1;
+    content: '';
+    width: 100%;
+    height: 95%;
+    background: red;
+    position: absolute;
+    clip-path: circle(50% at right 40%)
+    
+
+}
+
+
+header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--color2);
+    position: fixed;
+    top: 0px;
+    border-bottom-left-radius: 80px;
+    border-top-right-radius: 80px;
+
+    border-bottom-right-radius: 80px;
+    border-top-left-radius: 80px;
+    border-bottom: 3px solid rgb(251, 236, 236);
+    z-index: 999;
+}
+
+header .nav-left{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-left: 30px;
+}
+
+header .nav-left h1{
+    margin: 0rem 2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: white;
+}
+header img{
+    width: 4rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin: 1rem 0rem;
+}
+header img:hover{
+    transform: rotate(20deg);
+}
+
+header .nav-right{
+    margin-right: 6rem;
+    display: flex;
+}
+header .nav-right a{
+   margin-left: 20px;
+   text-decoration: none;
+}
+
+header .nav-right li{
+    color: var(--color1);
+    font-weight: 600;
+    cursor: pointer;
+    padding: 12px;
+}
+
+header .nav-right li:hover{
+    list-style: none;
+    background-color: var(--color1);
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 650px;
+    display: flex;
+    
+    align-items: center;
+    padding-top: 4rem;
+
+   
+}
+
+.main .content-left{
+    width: 40%;
+}
+
+.main .content-left h1{
+    color: var(--color1);
+    margin: 0.5rem;
+}
+.main .content-left span{
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: var(--color3);
+    letter-spacing: 3px;
+}
+.content-left{
+    margin: auto;
+}
+
+.main .content-left h2{
+    color: var(--color1);
+}
+
+.main .content-left p{
+    color: var(--color1);
+    margin: 2rem 0rem 2rem 0rem;
+}
+
+.main .content-left button{
+    color: var(--color1);
+    background-color: var(--color3);
+    border: none;
+    outline: none;
+    padding: 0.8rem 2rem;
+    cursor: pointer;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+.main .content-left button:hover{
+    background-color: black;
+    letter-spacing: 1px;
+    font-weight: 800;
+    color: white;
+}
+
+img{
+   
+border-radius: 50px;
+float: right;
+   margin: auto;
+      width: 300px;
+    height: 300px;
+   } 
+.nav-right > a > li{
+    list-style: none;
+}
+
+
+.footer{
+    height: 30px;
+    width: 96.5%;
+    margin-right: 15em;
+    
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    color: aqua;
+    
+    
+    background-color: rgb(255, 0, 43);
+    display: flex;
+    grid-template-rows: repeat(6 , 1fr);
+
+
+
+      margin: 0px 50% 0px 30px;
+
+}
+.ft{
+ 
+  margin: auto;
+
+}
+.fa-brands{
+
+    margin-left: 20px;
+}
+
+@media (min-width:950px) and (max-width: 1150px){
+    
+    .wrapper .imge{
+        
+        width:330px ;
+    }
+   
+}
+@media (max-width:800px){  
+    .wrapper{
+display: inline;
+
+    }
+    .main{
+     
+        font-size: 10px;
+       flex-direction: column;
+       justify-content: center;
+    }
+       
+    .main .imge{
+        width: 80%;
+    }
+    .view{
+        display: none;
+    }
+    header{
+        flex-direction: column;
+       justify-content: center;
+    }
+    .nav-foto{
+        display: none;
+    }
+    
+    
+   
+}
+@media (min-width:200px) and (max-width: 450px){
+    
+    body{
+        
+        background-image: none;
+    }
+   
+}
+
+
+
+
